@@ -1,0 +1,18 @@
+<h1>WORDS PRESENT</h1>
+<a href="/">Go back</a></br>
+
+<table border="black 1px">
+    <thead>
+        <td>WORD</td>
+        <td>COUNT</td>
+    </thead>
+    <tbody>
+        {% for word,count in words %}
+        <tr>
+            <td>{{ word }}</td>
+            <td>{{ count }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</br>
